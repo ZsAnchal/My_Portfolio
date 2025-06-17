@@ -36,8 +36,8 @@ skills.forEach(skill => {
  
 function downloadResume(){
   const link = document.createElement('a');
-  link.href = 'myresume_1.pdf'; 
-  link.download = 'myresume_1.pdf';
+  link.href = 'myresume _1.pdf'; 
+  link.download = 'myresume _1.pdf';
   link.click();
 };
 

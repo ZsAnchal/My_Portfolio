@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👹 Ami Maunjilka 👹 - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">👹 Ami Maunjilka 👹 Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftsection">
+                Hi, My name is <span><h1 class="purple" >Pyari Manjulika</h1></span>
+                <p>and I am a passionate tech enthusiast with a strong foundation in C, Python and MySQL<br>
+                     I'm particularly keen on exploring AI and data visualization.
+                </p>
+                <span id="element"></span>
+                <div>
+                    <a href="contactme.html" type="button" class="cta">hire me</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev1.webp" alt="style" width="170" style="margin: 50px;">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="about" class="secondsection">
+            <span class="text-gray">What I have So Far</span>
+            <h1>My Journey & Milestones</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev2.png" alt="Project Icon">
+                    <div class="vertical-title">
+                        Portfolio Website Development
+                    </div>
+                    <div class="vertical-desc">
+                        Designed and built a responsive personal portfolio using HTML, CSS, and JavaScript, showcasing
+                        skills and projects.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev2.png" alt="AI Icon">
+                    <div class="vertical-title">
+                        AI/ML Coursework
+                    </div>
+                    <div class="vertical-desc">
+                        Gained foundational knowledge in Artificial Intelligence and Machine Learning through university coursework,
+                        focusing on core concepts and practical applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev2.png" alt="Database Icon">
+                    <div class="vertical-title">
+                        Database Management Skills
+                    </div>
+                    <div class="vertical-desc">
+                        Developed strong database skills with MySQL, including schema design, complex queries, and data manipulation
+                        for various projects.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev2.png" alt="Programming Icon">
+                    <div class="vertical-title">
+                        C/C++ & Python Proficiency
+                    </div>
+                    <div class="vertical-desc">
+                        Honed problem-solving and algorithmic thinking through extensive programming in C, C++, and Python,
+                        applying them to diverse challenges.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Data Scientist', 'Data Analyst', 'Web Designer'],
+                typeSpeed: 50,
+            });
+        </script>
+
+    </main>
+</body>
+
+</html>
